@@ -1,0 +1,7 @@
+1.依賴注入
+2.Blocking & Non-Blocking
+  盡量避免Blocking
+  多使用Non-Blocking
+  Blocking操作 = 並排執行所有處理工作
+  要使用Non-Blocking，需要使用callback，透過將函數作為參數傳遞給其他需要花時間做處理的函數
+  
